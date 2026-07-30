@@ -1,4 +1,4 @@
-# angepasst ausgehend von DADA2 Pipeline Tutorial (1.12)
+# adapted based on DADA2 Pipeline Tutorial (1.12)
 # https://benjjneb.github.io/dada2/tutorial.html
 
 # Nutzung der primer_clipped Daten, aber vorher L?ufe nach R1 und R2 sortiert/getrennt
@@ -300,8 +300,8 @@ library(phyloseq)
 sort(sample_sums(ps01))
 
 # ---
-# phylogenetic tree ?ber R - Nachteil tree ist nicht gerootet, daher werden
-# immer andere ASVs als root gew?hlt und die Werte und die Ordination schwankt
+# Phylogenetic tree using R—The drawback is that the tree is not rooted, so
+# always select different ASVs as the root, and the values and ordering vary
 
 #install.packages("phangorn")
 library (phangorn)
